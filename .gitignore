@@ -1,0 +1,5 @@
+**/.direnv/
+.cache/
+.pre-commit-config.yaml
+build/
+result*
