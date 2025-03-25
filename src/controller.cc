@@ -30,6 +30,6 @@ auto normalize_sticks(Sticks sticks) -> NormalizedSticks {
         rx *= inverse_lerp(sticks.dead_zone / 100.0f, 1.0f, rr) / rr;
         ry *= inverse_lerp(sticks.dead_zone / 100.0f, 1.0f, rr) / rr;
     }
-    auto normalized = NormalizedSticks { .l = { lx, ly }, .r = { rx, ry } };
+    auto normalized = NormalizedSticks {.l = {lx, ly}, .r = {rx, ry}};
     return normalized;
 }

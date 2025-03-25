@@ -16,5 +16,5 @@ auto get_revolution(Encoder encoder) -> std::int64_t {
 
 auto update(Encoder encoder, std::int64_t delta) -> Encoder {
     auto count = encoder.count + delta;
-    return Encoder { .ppr = encoder.ppr, .count = count };
+    return Encoder {.ppr = encoder.ppr, .count = count};
 }
